@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SA_APP.Views.ViewStoreItemPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <ScrollView>
+                <StackLayout Orientation="Vertical">
+                    <Image Source="{Binding Image}" WidthRequest="125" HeightRequest="125" HorizontalOptions="Center"/>
+                    <Label Text="{Binding Name}" FontSize="Large" HorizontalOptions="CenterAndExpand" LineBreakMode="WordWrap"/>
+                    <Label Text="{Binding GeneratedText}" HorizontalOptions="StartAndExpand" LineBreakMode="WordWrap" />
+                    <Label HorizontalOptions="StartAndExpand">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Serving Size:" FontAttributes="Bold"/>
+                                <Span Text="{Binding ServingSize}" FontAttributes="Bold"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <WebView x:Name="nutritionWidget" Source="{Binding NutritionWidget}" WidthRequest="200" HeightRequest="700"/>
+                </StackLayout>
+            </ScrollView>
+            <!--<Image x:Name="addItemIcon" Source="plus_square.jpg" HorizontalOptions="StartAndExpand"/>-->
+            <Button Text="Add To ShoppingList" BackgroundColor="Orange" TextColor="White" Command="{Binding AddToShoppingListCommand}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

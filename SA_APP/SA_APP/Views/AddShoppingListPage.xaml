@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              x:Class="SA_APP.Views.AddShoppingListPage"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+    <StackLayout VerticalOptions="Center" 
+        HorizontalOptions="Center" 
+        Padding="24"
+        Margin="12"
+        Spacing="24"
+        BackgroundColor="White">
+        <Label Text="Create Shopping List" FontSize="25" HorizontalOptions="CenterAndExpand" TextColor="Blue"/>
+        <Frame BackgroundColor="#BF043055" HasShadow="True">
+            <StackLayout Padding="20, 20, 20, 20" Spacing="20">
+
+                <Entry x:Name="ShoppingListName" Text="{Binding ShoppingListName}" 
+                           Placeholder="Shopping List Name"   
+                           PlaceholderColor="White" HeightRequest="50"
+                           TextColor="White" Completed="ShoppingListName_Completed"/>
+            </StackLayout>
+        </Frame>
+        <StackLayout Orientation="Horizontal">
+            <Button Clicked="ShoppingListName_Completed" Text="Submit" TextColor="White"  
+                    FontAttributes="Bold" FontSize="Medium" HorizontalOptions="Start"  
+                    BackgroundColor="Green"/>
+
+            <Button Text="Cancel" TextColor="White"  
+                    FontAttributes="Bold" FontSize="Medium" HorizontalOptions="Start"  
+                    BackgroundColor="Gray" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </StackLayout>
+</pages:PopupPage>
+
+

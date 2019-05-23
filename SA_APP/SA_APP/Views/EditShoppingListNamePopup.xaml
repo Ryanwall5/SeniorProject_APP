@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SA_APP.Views.EditShoppingListNamePopup"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+
+    <StackLayout 
+        VerticalOptions="Center" 
+        HorizontalOptions="Center" 
+        Padding="24"
+        Margin="12"
+        Spacing="24"
+        BackgroundColor="White" >
+
+        <Label x:Name="addItem" TextColor="SteelBlue" FontSize="Large"  Text="Edit Name:"/>
+        <Entry x:Name="shoppingListNameEntry" Placeholder="{Binding OldShoppingListName}" Text="{Binding ShoppingListName}" />
+        
+        <StackLayout Orientation="Horizontal">
+            <Button Command="{Binding SubmitCommand}" Text="Change Name" BackgroundColor="Red" TextColor="White" />
+            <Button Command="{Binding CancelCommand}" Text="Cancel" BackgroundColor="LightSkyBlue" TextColor="Gray" />
+        </StackLayout>
+    </StackLayout>
+</pages:PopupPage>

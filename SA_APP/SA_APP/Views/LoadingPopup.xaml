@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SA_APP.Views.LoadingPopup"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+              >
+    <ContentPage.Content>
+        <StackLayout 
+        VerticalOptions="Center" 
+        HorizontalOptions="Center" 
+        Padding="24"
+        Margin="12"
+        Spacing="24"
+        BackgroundColor="White" >
+            <Label x:Name="loadingMessage" Text="Loading..."
+                   FontSize="Large"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <ActivityIndicator x:Name="loadingIndicator" VerticalOptions="Center" HeightRequest="40" WidthRequest="40" Color="Red" HorizontalOptions="Center" IsVisible="True" IsRunning="True" IsEnabled="True" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</pages:PopupPage>

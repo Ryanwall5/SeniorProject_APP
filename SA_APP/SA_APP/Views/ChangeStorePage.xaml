@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SA_APP.Views.ChangeStorePage"
+                 xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+    <StackLayout VerticalOptions="Center" 
+        HorizontalOptions="Center" 
+        Padding="24"
+        Margin="12"
+        Spacing="24"
+        BackgroundColor="White">
+        <Label Text="Change Home Store" FontSize="25" HorizontalOptions="CenterAndExpand" TextColor="Blue"/>
+        <Frame BackgroundColor="IndianRed" HasShadow="True">
+            <StackLayout Padding="20, 20, 20, 20" Spacing="20">
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Current Store: " FontAttributes="Bold" TextColor="White"/>
+                            <Span Text="{Binding HomeStore}" FontAttributes="Bold" TextColor="White"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Picker Title="Store Name" SelectedItem="{Binding StoreSelectedItem}" SelectedIndex="{Binding StoreSelectedIndex}"  ItemsSource="{Binding StoreNames}"/>
+            </StackLayout>
+        </Frame>
+        <StackLayout Orientation="Horizontal">
+            <Button Command="{Binding ChangeStoreCommand}" Text="Submit" TextColor="White"  
+                    FontAttributes="Bold" FontSize="Medium" HorizontalOptions="Start"  
+                    BackgroundColor="Green"/>
+
+            <Button Text="Cancel" TextColor="White"  
+                    FontAttributes="Bold" FontSize="Medium" HorizontalOptions="Start"  
+                    BackgroundColor="Gray" Command="{Binding OnCancelCommand}"/>
+        </StackLayout>
+    </StackLayout>
+</pages:PopupPage>
+             

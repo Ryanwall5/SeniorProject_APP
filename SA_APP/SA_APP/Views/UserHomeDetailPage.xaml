@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SA_APP.Views.UserHomeDetailPage"
+             Icon="shopping_cart.png">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Orientation="Vertical" Margin="0,0,0,0" BackgroundColor="LightGray">
+
+                <Frame BackgroundColor="Red" HasShadow="True" Margin="10">
+                <SearchBar x:Name="itemSearchBar" BackgroundColor="White" TextColor="Black" Placeholder="Item Search" CancelButtonColor="Red" HorizontalOptions="Center" />
+                </Frame>
+                
+                <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="Accent" Margin="10,25,10,20">
+                    <Frame HasShadow="True">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="6*"/>
+                                <ColumnDefinition Width="5"/>
+                                <ColumnDefinition Width="3*"/>
+                            </Grid.ColumnDefinitions>
+                            <StackLayout Orientation="Vertical" Grid.Column="0" Grid.Row="0">
+                                <Label HorizontalOptions="Start">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Create: Shopping List" FontAttributes="Bold"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                                <Label Text="View your list on store map" HorizontalOptions="Start" FontAttributes="Bold"/>
+                            </StackLayout>
+                            <BoxView Grid.Column="1" Grid.Row="0" VerticalOptions="FillAndExpand" BackgroundColor="LightGray">
+
+                            </BoxView>
+                            <StackLayout Orientation="Vertical" Grid.Column="2" Grid.Row="0">
+                                <Image x:Name="shoppingListLogo" Source="list.jpg" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center"/>
+                                <Label Text="Create New" FontSize="Micro" HorizontalOptions="Center"/>
+                            </StackLayout>
+                        </Grid>
+                    </Frame>
+                </StackLayout>
+
+                <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="Accent" Margin="10,5,10,20">
+                    <Frame HasShadow="True">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="6*"/>
+                                <ColumnDefinition Width="5"/>
+                                <ColumnDefinition Width="3*"/>
+                            </Grid.ColumnDefinitions>
+                            <StackLayout Orientation="Vertical" Grid.Column="0" Grid.Row="0">
+                                <Label HorizontalOptions="Start">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Shopping at: " FontAttributes="Bold"/>
+                                            <Span x:Name="storeNameSpan" Text="{Binding StoreName, Mode=OneWay}" FontAttributes="Bold"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                                <Label Text="{Binding StoreAddress}" HorizontalOptions="Start" FontAttributes="Bold"/>
+                            </StackLayout>
+                            <BoxView Grid.Column="1" Grid.Row="0" VerticalOptions="FillAndExpand" BackgroundColor="LightGray">
+                                
+                            </BoxView>
+                            <StackLayout Orientation="Vertical" Grid.Column="2" Grid.Row="0">
+                                <Image x:Name="storeLogo" Source="store.jpg" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center"/>
+                                <Label Text="Change Store" FontSize="Micro" HorizontalOptions="Center"/>
+                            </StackLayout>
+                        </Grid>
+                    </Frame>
+                </StackLayout>
+
+                <Label Text="Store Items:" HorizontalOptions="StartAndExpand" FontSize="Large" FontAttributes="Bold"/>
+                <StackLayout BackgroundColor="White" VerticalOptions="FillAndExpand" HeightRequest="500">
+                    <ListView ItemsSource="{Binding StoreItems}" HasUnevenRows="True">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Frame HasShadow="True">
+                                        <Grid Margin="5">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition  Width="3*"/>
+                                                <ColumnDefinition  Width="10"/>
+                                                <ColumnDefinition  Width="6*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="50"/>
+                                                <RowDefinition Height="50"/>
+                                            </Grid.RowDefinitions>
+                                            <!--<controls:CircleImage Grid.RowSpan="2"  WidthRequest="100"  HeightRequest="100" Source="{Binding ImageUrl}" Aspect="AspectFill" />-->
+
+                                            <Image HeightRequest="40" WidthRequest="40" Grid.RowSpan="2" Source="{Binding Image}"/>
+                                            <Label Grid.Column="2" Grid.Row="0" FontSize="Small" Text="{Binding Name}" LineBreakMode="WordWrap" />
+                                            <Label VerticalTextAlignment="Start" VerticalOptions="Start" Grid.Row="1" Grid.Column="2" FontSize="Small"  >
+                                                <Label.FormattedText>
+                                                    <FormattedString>
+                                                        <Span Text="$" TextColor="Red" BackgroundColor="Gold" />
+                                                        <Span Text="{Binding Price}" TextColor="Red" BackgroundColor="Gold"/>
+                                                    </FormattedString>
+                                                </Label.FormattedText>
+                                            </Label>
+                                                  
+                                        </Grid>
+                                    </Frame>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

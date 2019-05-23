@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              x:Class="SA_APP.Views.SearchItemsPage">
+
+    <StackLayout HorizontalOptions="Fill" VerticalOptions="Fill">
+        <SearchBar x:Name="itemSearchBar" Placeholder="Item Search" CancelButtonColor="Red" HorizontalOptions="CenterAndExpand" SearchButtonPressed="SearchBar_SearchButtonPressed" />
+
+        <AbsoluteLayout>
+            <ScrollView x:Name="myscrollview" BackgroundColor="Gray" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+                <StackLayout x:Name="mystacklayout" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+                    
+                </StackLayout>
+            </ScrollView>
+
+        </AbsoluteLayout>
+        <Grid x:Name="dropZoneGrid" IsVisible="False" Padding="0" Margin="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Text="Add to" Grid.Row="0" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="End" Margin="0" Grid.Column="0"/>
+            <Label Text="Shopping List" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Start" Margin="0"  Grid.Row="1" Grid.Column="0"/>
+
+            <BoxView x:Name="dropzoneBoxView"  BackgroundColor="Silver" Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" />
+
+            <!--<BoxView BackgroundColor="Green" Grid.Row="0" Grid.RowSpan="2" Grid.Column="1">
+                    <BoxView.Triggers>
+                        <DataTrigger x:Name="finishLineDataTrigger1"  TargetType="BoxView"  Binding="{Binding Source={x:Reference ImageContent}, Path=TranslationY, Converter={ StaticResource TranslationYConverter}}" Value="true" >
+                            <DataTrigger.Setters>
+                                <Setter Property = "BackgroundColor" Value="Transparent"/>
+                            </DataTrigger.Setters>
+                        </DataTrigger>
+                    </BoxView.Triggers>
+                </BoxView>-->
+
+            <Label FontSize="Large" Text="Drag and Drop Image Here" TextColor="Blue" Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" LineBreakMode="WordWrap"/>
+        </Grid>
+    </StackLayout>
+    <!--<ContentPage.Content>
+        <StackLayout>
+            <SearchBar x:Name="itemSearchBar" Placeholder="Item Search" CancelButtonColor="Red" HorizontalOptions="CenterAndExpand" SearchButtonPressed="SearchBar_SearchButtonPressed" />
+            <ListView x:Name="MyListView"
+                    ItemTapped="Handle_ItemTapped"
+                    CachingStrategy="RecycleElement"
+                      Margin="20"
+                      HasUnevenRows="True">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Margin="5">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition  Width="Auto"/>
+                                    <ColumnDefinition  />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                --><!--<controls:CircleImage Grid.RowSpan="2"  WidthRequest="100"  HeightRequest="100" Source="{Binding ImageUrl}" Aspect="AspectFill" />--><!--
+
+                                <Image HeightRequest="75" WidthRequest="75" Grid.RowSpan="2" Source="{Binding Image}" Aspect="AspectFill" />
+                                <Label Grid.Column="1" Grid.Row="0" FontSize="Small" Text="{Binding Name}" />
+                                <Label VerticalTextAlignment="Start" VerticalOptions="Start" Grid.Column="1" Grid.Row="1" FontSize="Small" Text="{Binding Price}" />
+                            </Grid>
+                            --><!--<StackLayout Orientation="Horizontal">
+
+                            </StackLayout>--><!--
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>-->
+</ContentPage>

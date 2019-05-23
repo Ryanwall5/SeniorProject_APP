@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SA_APP.Views.LowerDepartmentsPage">
+    <!--<ContentPage.Content>
+        <Grid x:Name="lowerDepartmentGrid" RowSpacing="0" ColumnSpacing="0">-->
+            <!--<Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Clicked="Button_Clicked" Padding="0" CommandParameter="1" Grid.Row="0" Grid.RowSpan="1" Grid.Column="0" Grid.ColumnSpan="1"/>
+            <Label Text="Canned/Pasta" FontAttributes="Bold" 
+                       TextColor="Red" HorizontalTextAlignment="Center" 
+                       VerticalOptions="CenterAndExpand" 
+                       InputTransparent="True"
+                       Grid.Row="0" Grid.RowSpan="1" Grid.Column="0" Grid.ColumnSpan="1"/>
+
+            <Button Padding="0" Clicked="Button_Clicked" CommandParameter="1" Grid.Row="0" Grid.RowSpan="1" Grid.Column="1" Grid.ColumnSpan="1"/>
+            <Label Text="Coffee/Drinks/Crackers" FontAttributes="Bold" 
+                       TextColor="Red" HorizontalTextAlignment="Center" 
+                       VerticalOptions="CenterAndExpand"
+                       InputTransparent="True"
+                       Grid.Row="0" Grid.RowSpan="1" Grid.Column="1" Grid.ColumnSpan="1"/>
+
+            <Button Padding="0" Clicked="Button_Clicked" CommandParameter="1" Grid.Row="0" Grid.RowSpan="1" Grid.Column="2" Grid.ColumnSpan="1"/>
+            <Label Text="Healthy Back" FontAttributes="Bold" 
+                       TextColor="Red" HorizontalTextAlignment="Center" 
+                       VerticalOptions="CenterAndExpand"
+                       InputTransparent="True"
+                       Grid.Row="0" Grid.RowSpan="1" Grid.Column="2" Grid.ColumnSpan="1"/>
+
+
+            <Button Padding="0" Clicked="Button_Clicked" CommandParameter="1" Grid.Row="1" Grid.RowSpan="1" Grid.Column="0"/>
+            <Label Text="Cooking/Asian/Mexican" FontAttributes="Bold" 
+                       TextColor="Red" HorizontalTextAlignment="Center" 
+                       VerticalOptions="CenterAndExpand"
+                       InputTransparent="True"
+                        Grid.Row="1" Grid.RowSpan="1" Grid.Column="0"/>
+
+            <Button Padding="0" Clicked="Button_Clicked" CommandParameter="1" Grid.Row="1" Grid.RowSpan="1" Grid.Column="1"/>
+            <Label Text="Sancks/Candy" FontAttributes="Bold" 
+                       TextColor="Red" HorizontalTextAlignment="Center" 
+                       VerticalOptions="CenterAndExpand"
+                       InputTransparent="True"
+                        Grid.Row="1" Grid.RowSpan="1" Grid.Column="1"/>
+
+            <Button Padding="0" Clicked="Button_Clicked" CommandParameter="1" Grid.Row="1" Grid.RowSpan="1" Grid.Column="2"/>
+            <Label Text="Healthy front" FontAttributes="Bold" 
+                       TextColor="Red" HorizontalTextAlignment="Center" 
+                       VerticalOptions="CenterAndExpand"
+                       InputTransparent="True"
+                        Grid.Row="1" Grid.RowSpan="1" Grid.Column="2"/>-->
+
+        <!--</Grid>
+    </ContentPage.Content>-->
+</TabbedPage>

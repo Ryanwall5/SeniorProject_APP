@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SA_APP.Views.ViewShoppingListPage">
+
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Label Text="{Binding ShoppingList.name}" LineBreakMode="TailTruncation" VerticalOptions="Center" FontAttributes="Bold" FontSize="30"/>
+                <Image x:Name="editIcon" Source="edit.jpg" VerticalOptions="Center"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Time of Creation: " FontAttributes="Bold"/>
+                <Label Text="{Binding ShoppingList.timeOfCreation}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Total Price: " FontAttributes="Bold"/>
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="$"/>
+                            <Span Text="{Binding ShoppingList.totalCost}"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Total Items: " FontAttributes="Bold"/>
+                <Label Text="{Binding ShoppingList.totalItems}"/>
+            </StackLayout>
+            <ScrollView>
+                <ListView ItemsSource="{Binding Items}" x:Name="ItemListView"
+                          ItemTapped="Handle_ItemTapped"
+                            CachingStrategy="RecycleElementAndDataTemplate"  >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal" Padding="15,0">
+                                    <Label Text="{Binding name}" FontSize="Medium" VerticalOptions="Center"/>
+                                    <Label Text="{Binding price}" FontSize="Medium" VerticalOptions="Center"/>
+                                    <Label Text="{Binding itemQuantity}" FontSize="Medium" VerticalOptions="Center"/>
+                                    <!--<Button Clicked="OnView_Clicked" Text="View" BackgroundColor="Blue" TextColor="white" VerticalOptions="Center" CommandParameter="{Binding Id}"/>-->
+                                    <Button Clicked="OnDelete_Clicked" Text="Delete" BackgroundColor="Red" TextColor="white" VerticalOptions="Center" CommandParameter="{Binding linkId}"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

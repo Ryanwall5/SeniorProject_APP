@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SA_APP.Views.StoreMapPage"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core">
+
+    <!--<ContentPage>
+        <ListView>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame>
+                            <Frame.GestureRecognizers>
+                                <SwipeGestureRecognizer Direction="Right" Swiped="SwipeGestureRecognizer_Swiped"/>
+                            </Frame.GestureRecognizers>
+                            <Label />
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage>-->
+    <!--<ContentPage>
+        <Grid x:Name="storeGrid" RowSpacing="0" ColumnSpacing="0">-->
+            <!--<Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button Clicked="Button_Clicked" BackgroundColor="Green" CommandParameter="1" Grid.Row="0" Grid.RowSpan="1" Grid.Column="0" Grid.ColumnSpan="2"/>
+                <Label Text="Paint/Kitchen/bathroom" FontAttributes="Bold" 
+                       TextColor="Red" HorizontalTextAlignment="Center" 
+                       VerticalOptions="CenterAndExpand" 
+                       InputTransparent="True" Grid.Row="0" Grid.RowSpan="1" Grid.Column="0" Grid.ColumnSpan="2"
+                        />
+                -->
+            <!--<Frame BackgroundColor="Green" Grid.Row="0" Grid.RowSpan="1" Grid.Column="0" Grid.ColumnSpan="2">
+                    <Frame.Content>
+                        <StackLayout>
+                            <Label Text="Paint/Kitchen/bathroom" FontAttributes="Bold" 
+                       TextColor="Red" HorizontalTextAlignment="Center" 
+                       VerticalOptions="CenterAndExpand" 
+                       InputTransparent="True"
+                        />
+                            <Label Text="Items: 2" FontAttributes="Bold" 
+                       TextColor="Red" HorizontalTextAlignment="Center" 
+                       VerticalOptions="CenterAndExpand" 
+                       InputTransparent="True"
+                       />
+                        </StackLayout>
+                    </Frame.Content>
+                </Frame>-->
+            <!--
+
+                <Button Grid.Row="0" CommandParameter="1" Grid.RowSpan="1" Clicked="Button_Clicked" Grid.Column="2" Grid.ColumnSpan="2"/>
+                <Label Text="Dairy" FontAttributes="Bold" 
+                       TextColor="Red" HorizontalTextAlignment="Center" 
+                       VerticalOptions="CenterAndExpand"
+                       InputTransparent="True"
+                       Grid.Row="0" Grid.RowSpan="1" Grid.Column="2" Grid.ColumnSpan="2"/>
+
+                <Button Grid.Row="0" CommandParameter="1" Grid.RowSpan="1" Clicked="Button_Clicked" Grid.Column="4" Grid.ColumnSpan="1"/>
+                <Label Text="Meat" FontAttributes="Bold" 
+                       TextColor="Red" HorizontalTextAlignment="Center" 
+                       VerticalOptions="CenterAndExpand"
+                       InputTransparent="True"
+                       Grid.Row="0" Grid.RowSpan="1" Grid.Column="4" Grid.ColumnSpan="1"/>
+
+                <Button Clicked="Button_Clicked" CommandParameter="1" Grid.Row="1" Grid.RowSpan="5" Grid.Column="0"/>
+                <Label Text="Elect./Sports/Tools" FontAttributes="Bold" 
+                       TextColor="Red" HorizontalTextAlignment="Center" 
+                       VerticalOptions="CenterAndExpand"
+                       InputTransparent="True"
+                        Grid.Row="1" Grid.RowSpan="5" Grid.Column="0"/>
+
+
+                <Button Clicked="Button_Clicked" CommandParameter="1" Grid.Row="1" Grid.RowSpan="5" Grid.Column="1"/>
+                <Label Text="House/Furniture" FontAttributes="Bold" 
+                       TextColor="Red" HorizontalTextAlignment="Center" 
+                       VerticalOptions="CenterAndExpand"
+                       InputTransparent="True"
+                        Grid.Row="1" Grid.RowSpan="5" Grid.Column="1"/>
+
+                <Button Clicked="Button_Clicked" CommandParameter="1" Grid.Row="1" Grid.RowSpan="5" Grid.Column="2" Grid.ColumnSpan="2"/>
+                <Label Text="Grocery" FontAttributes="Bold" 
+                       TextColor="Red" HorizontalTextAlignment="Center" 
+                       VerticalOptions="CenterAndExpand"
+                       InputTransparent="True"
+                        Grid.Row="1" Grid.RowSpan="5" Grid.Column="2" Grid.ColumnSpan="2"/>
+
+                <Button Clicked="Button_Clicked" CommandParameter="1" Grid.Row="1" Grid.RowSpan="2" Grid.Column="4" Grid.ColumnSpan="1"/>
+                <Label Text="Alcohol" FontAttributes="Bold" 
+                       TextColor="Red" HorizontalTextAlignment="Center" 
+                       VerticalOptions="CenterAndExpand" 
+                       InputTransparent="True"
+                       Grid.Row="1" Grid.RowSpan="2" Grid.Column="4" Grid.ColumnSpan="1"/>
+
+                <Button Clicked="Button_Clicked" CommandParameter="1" Grid.Row="3" Grid.RowSpan="3" Grid.Column="4" Grid.ColumnSpan="1"/>
+                <Label Text="Produce" FontAttributes="Bold" 
+                       TextColor="Red" HorizontalTextAlignment="Center" 
+                       VerticalOptions="CenterAndExpand"  
+                       InputTransparent="True"
+                       Grid.Row="3" Grid.RowSpan="3" Grid.Column="4" Grid.ColumnSpan="1"/>
+
+                <Button Clicked="Button_Clicked" CommandParameter="1" Grid.Row="0" Grid.RowSpan="6" Grid.Column="5" Grid.ColumnSpan="1"/>
+                <Label Text="Apparel" FontAttributes="Bold" 
+                       TextColor="Red" HorizontalTextAlignment="Center" 
+                       VerticalOptions="CenterAndExpand"
+                       InputTransparent="True"
+                       Grid.Row="0" Grid.RowSpan="6" Grid.Column="5" Grid.ColumnSpan="1"/>
+
+                <Button Clicked="Button_Clicked" CommandParameter="1" Grid.Row="6" Grid.RowSpan="1" Grid.Column="2" Grid.ColumnSpan="2"/>
+                <Label Text="Cash Registers" FontAttributes="Bold" 
+                       TextColor="Red" HorizontalTextAlignment="Center" 
+                       VerticalOptions="CenterAndExpand"
+                       InputTransparent="True"
+                       Grid.Row="6" Grid.RowSpan="1" Grid.Column="2" Grid.ColumnSpan="2"/>-->
+
+        <!--</Grid>
+    </ContentPage>
+
+
+    <ContentPage>
+        <StackLayout>
+            <Label Text="Shopping List"/>
+            <ListView x:Name="shoppingListListView"
+                    ItemsSource="{Binding Items}"
+                    CachingStrategy="RecycleElement"
+                      Margin="20"
+                      HasUnevenRows="True">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Margin="5">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition  Width="Auto"/>
+                                    <ColumnDefinition  />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+
+                                <Switch />
+                                <Image HeightRequest="75" WidthRequest="75" Grid.RowSpan="2" Source="image.jpg" Aspect="AspectFill" />
+                                <Label Grid.Column="1" Grid.Row="0" FontSize="Small" Text="{Binding name}" />
+                                <Label VerticalTextAlignment="Start" VerticalOptions="Start" Grid.Column="1" Grid.Row="1" FontSize="Small" Text="{Binding itemQuantity}" />
+                            </Grid>
+                             <StackLayout Orientation="Horizontal">
+
+                            </StackLayout>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage>-->
+</TabbedPage>

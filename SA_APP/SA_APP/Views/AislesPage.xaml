@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SA_APP.Views.AislesPage">
+    <!--<ContentPage.Content>
+        <Grid x:Name="aislesGrid" Padding="0" RowSpacing="0" ColumnSpacing="0">-->
+            <!--<Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="50"/>
+            </Grid.ColumnDefinitions>
+
+            <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large" Text="1" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="1"/>
+            <Button Clicked="Button_Clicked" BackgroundColor="Gray" CommandParameter="1" Grid.Row="1" Grid.Column="1"/>
+            <Button Clicked="Button_Clicked" BackgroundColor="Gray" CommandParameter="1" Grid.Row="1" Grid.Column="2"/>
+            <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large" Text="2" Grid.Row="1" Grid.RowSpan="1" Grid.Column="3" Grid.ColumnSpan="1"/>
+            <Button Clicked="Button_Clicked" BackgroundColor="Gray" CommandParameter="1" Grid.Row="1" Grid.Column="4"/>
+            <Button Clicked="Button_Clicked" BackgroundColor="Gray" CommandParameter="1" Grid.Row="1" Grid.Column="5"/>
+            <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large" Text="3" Grid.Row="1" Grid.Column="6"/>
+            <Button Clicked="Button_Clicked" BackgroundColor="Gray" CommandParameter="1" Grid.Row="1" Grid.Column="7"/>
+            <Button Clicked="Button_Clicked" BackgroundColor="Gray" CommandParameter="1" Grid.Row="1" Grid.Column="8"/>
+            <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Large" Text="4" Grid.Row="1" Grid.Column="9" />-->
+
+        <!--</Grid>
+    </ContentPage.Content>-->
+</TabbedPage>

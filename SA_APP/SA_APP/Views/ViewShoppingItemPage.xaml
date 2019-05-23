@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SA_APP.Views.ViewShoppingItemPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="{Binding ShoppingItem.image}" WidthRequest="125" HeightRequest="125" HorizontalOptions="Center"/>
+            <Label Text="{Binding ShoppingItem.name}" FontAttributes="Bold" FontSize="Large" HorizontalOptions="CenterAndExpand" LineBreakMode="WordWrap"/>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Price: " FontAttributes="Bold"/>
+                        <Span Text="{Binding ShoppingItem.price}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Item InStock?: " FontAttributes="Bold"/>
+                        <Span Text="{Binding ShoppingItem.inStock}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Items In Stock: " FontAttributes="Bold"/>
+                        <Span Text="{Binding ShoppingItem.stockAmount}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Department: " FontAttributes="Bold"/>
+                        <Span Text="{Binding Department}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Aisle: " FontAttributes="Bold"/>
+                        <Span Text="{Binding Aisle}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Section: " FontAttributes="Bold"/>
+                        <Span Text="{Binding Section}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Shelf: " FontAttributes="Bold"/>
+                        <Span Text="{Binding Shelf}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Starting Item Quantity: " FontAttributes="Bold"/>
+                        <Span Text="{Binding ItemQuantity}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Picker x:Name="qtyPicker" Title="Item Quantity" SelectedItem="{Binding ItemQuantitySelectedItem}" SelectedIndex="{Binding ItemQuantitySelectedIndex}"  ItemsSource="{Binding ItemQuantityList}" />
+
+            <StackLayout>
+                <Button Command="{Binding RemoveItemCommand}" CommandParameter="{Binding ShoppingItem.linkId}" Text="Remove" BackgroundColor="Red" TextColor="White"/>
+                <Button Clicked="Button_Clicked" Text="Done" BackgroundColor="DarkCyan"/>
+            </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

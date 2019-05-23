@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SA_APP.Views.StorePage"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             Icon="shopping_cart.png"
+             Title="Store">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20,20,20,20" Spacing="10">
+                <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" WidthRequest="300" HeightRequest="150">
+                    <Image x:Name="storeLogoImage"  Aspect="AspectFill"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Address: " FontSize="Medium" HorizontalOptions="Start"/>
+                    <Label x:Name="addressLbl" Text=""
+                       VerticalOptions="Center"
+                HorizontalOptions="StartAndExpand" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Phone Number: " FontSize="Medium" HorizontalOptions="Start"/>
+                    <!--<Button x:Name="phoneNumberLbl" Clicked="CallStore_Clicked" Text="Call Store"/>-->
+                    <Label  x:Name="phoneNumberLbl" Text="Call Store" 
+                            VerticalOptions="Center"
+                            TextDecorations="Underline"
+                            TextColor="Orange"
+                            HorizontalOptions="StartAndExpand" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Website: " FontSize="Medium" HorizontalOptions="Start"/>
+                    <!--<Button x:Name="websiteLbl" Clicked="ViewStoreWebsite_Clicked" Text="Visit Website"/>-->
+                    <Label  x:Name="websiteLbl" Text="Visit Website"
+                            TextDecorations="Underline"
+                            TextColor="Orange"
+                            VerticalOptions="Center"
+                            HorizontalOptions="StartAndExpand" />
+                </StackLayout>
+                <StackLayout VerticalOptions="StartAndExpand" Padding="30">
+                    <maps:Map x:Name="storeGoogleMap" WidthRequest="320" HeightRequest="200"
+                        MapType="Hybrid"/>
+                </StackLayout>
+
+                <Button BackgroundColor="Orange" TextColor="White" Clicked="ViewMap_Clicked" Text="View Store Map"/>
+                <Button BackgroundColor="Blue" TextColor="White"  Clicked="SearchStoreItems_Clicked" Text="Search Store Items"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

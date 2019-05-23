@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SA_APP.Android", "SA_APP\SA_APP.Android\SA_APP.Android.csproj", "{26CCD33E-25C8-41D8-BFC6-8B328717D757}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SA_APP", "SA_APP\SA_APP\SA_APP.csproj", "{021073F2-FC37-4AA1-958F-7C1D4CA25E0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26CCD33E-25C8-41D8-BFC6-8B328717D757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26CCD33E-25C8-41D8-BFC6-8B328717D757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26CCD33E-25C8-41D8-BFC6-8B328717D757}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{26CCD33E-25C8-41D8-BFC6-8B328717D757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26CCD33E-25C8-41D8-BFC6-8B328717D757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26CCD33E-25C8-41D8-BFC6-8B328717D757}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{021073F2-FC37-4AA1-958F-7C1D4CA25E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021073F2-FC37-4AA1-958F-7C1D4CA25E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{021073F2-FC37-4AA1-958F-7C1D4CA25E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021073F2-FC37-4AA1-958F-7C1D4CA25E0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30043A40-3754-48D7-ABAF-ED10064FF4B5}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://seniorproject2018-2019.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SA_APP\\SA_APP.Android\\SA_APP.Android.csproj
+		SccProjectName1 = SA_APP/SA_APP.Android
+		SccLocalPath1 = SA_APP\\SA_APP.Android
+		SccProjectUniqueName2 = SA_APP\\SA_APP\\SA_APP.csproj
+		SccProjectName2 = SA_APP/SA_APP
+		SccLocalPath2 = SA_APP\\SA_APP
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,37 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:localModels="clr-namespace:SA_APP.Models"
+             xmlns:localViews="clr-namespace:SA_APP.Views"            
+             x:Class="SA_APP.Views.MasterPage"
+             Padding="0,40,0,0"
+             Icon="bars.jpg"
+             Title="Personal Organiser">
+    
+    <StackLayout>
+        <Image HorizontalOptions="Center" Source="shopping_cart.png"/>
+        <ListView x:Name="listView" x:FieldModifier="public">
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type localModels:MasterPageItem}">
+                    <localModels:MasterPageItem Title="Home" IconSource="home.jpg" TargetType="{x:Type localViews:UserHomeDetailPage}" />
+                    <localModels:MasterPageItem Title="Store" IconSource="store.jpg" TargetType="{x:Type localViews:StorePage}" />
+                    <localModels:MasterPageItem Title="Shopping Lists" IconSource="list.jpg" TargetType="{x:Type localViews:ShoppingListPage}" />
+                    <localModels:MasterPageItem Title="Logout" IconSource="signout.jpg" TargetType="{x:Type localViews:LoginPage}" />
+                </x:Array>
+            </ListView.ItemsSource>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="5,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="30"/>
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding IconSource}" />
+                            <Label Grid.Column="1" Text="{Binding Title}" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

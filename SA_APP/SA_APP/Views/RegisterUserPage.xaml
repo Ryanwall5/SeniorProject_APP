@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SA_APP.Views.RegisterUserPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20,20,20,20" Spacing="10">
+
+                <Label Text="Register New User" FontSize="24" HorizontalOptions="CenterAndExpand"/>
+
+                <Entry x:Name="firstNameEntry" Placeholder="First Name" Text="{Binding FirstName}"/>
+                <Entry x:Name="lastNameEntry" Placeholder="Last Name" Text="{Binding LastName}"/>
+                <Entry x:Name="emailEntry" Placeholder="Email" Text="{Binding Email}"/>
+                <Entry x:Name="passwordEntry" Placeholder="Password" Text="{Binding Password}" IsPassword="True"/>
+                <Entry x:Name="confirmPasswordEntry" Placeholder="Confirm Password" Text="{Binding ConfirmPassword}" IsPassword="True"/>
+                <Picker x:Name="homeStorePicker" ItemsSource="{Binding StoreList}" ItemDisplayBinding="{Binding name}" SelectedItem="{Binding SelectedStore}" Title="Home Store"/>
+
+                <Button Text="Submit" Command="{Binding SubmitCommand}" BackgroundColor="Green" TextColor="White"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

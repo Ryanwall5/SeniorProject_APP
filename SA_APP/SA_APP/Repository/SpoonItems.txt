@@ -1,0 +1,189 @@
+﻿405628,Swiss Miss Hot Cocoa Mix Milk Chocolate - 60 CT,Hot Cocoa,1,5.99,50,1,1
+207235,Grove Square Hot Cocoa - Mllk Chocolate,Hot Cocoa,1,5.49,50,2,1
+55372,Starbucks Hot Cocoa - Double Chocolate 1 oz,Hot Cocoa,1,8.99,50,3,1
+217988,Swiss Miss Hot Cocoa - Milk Chocolate K-Cup Packs,Hot Cocoa,1,4.99,50,1,1
+112710,Tassimo Hot Chocolate - Suchard Syrup,Hot Cocoa,1,9.99,50,2,1
+26631,Ghirardelli Hot Cocoa,Hot Cocoa,1,7.99,50,3,1
+26056,Nestle Hot Cocoa Mix,Hot Cocoa,1,4.75,50,1,1
+217655,Stash Tea Bags - Fusion Green & White,Tea,1,8.49,50,1,1
+118378,Lipton 100% Natural Tea 16 ct,Tea,1,8.98,50,2,1
+65156,Lipton Iced Tea,Tea,1,6.48,50,3,1
+36529,Salada Tea Bags - Pure Green Tea,Tea,1,21.44,50,1,1
+24164,Red Rose Tea Bags - Sunset Spice,Tea,1,7.02,50,2,1
+189999,Barrie House Ground Coffee 100% Colombian,Coffee,1,38.49,50,1,1
+211566,French Market Ground Coffee - & Chicory Dark Roast,Coffee,1,5.49,50,2,1
+211586,Folgers Instant Coffee Beverage Mix - Cappuccino Mocha Chocolate,Coffee,1,18.15,50,3,1
+211534,Folgers Instant Coffee Beverage Mix - Cappuccino French Vanilla,Coffee,1,18.15,50,1,1
+218136,Tassimo Coffee - Tim Hortons Latte,Coffee,1,13.73,50,2,1
+92572,Udi's Gluten Free Soft N' Chewy Granola Bars Chocolate Chip,granola bars,1,3.88,50,1,1
+42887,Udi's Gluten Free Soft n' Chewy Cranberry Almond Granola Bars - 5 CT,granola bars,1,4.88,50,2,1
+81520,Kudos Milk Chocolate Granola Bars with M&M's,granola bars,1,4.99,50,3,1
+173698,Kudos Milk Chocolate Granola Bars Variety Pack - 10 CT,granola bars,1,7.49,50,1,1
+185255,Kashi Trail Mix Chewy Granola Bars - 10 CT,granola bars,1,7.49,50,2,1
+184262,Ahold Pancakes Buttermilk - 12 CT,pancake supplies,1,16.01,50,1,1
+177979,Aunt Jemima Pancakes Blueberry - 12 CT,pancake supplies,1,11.48,50,2,1
+145198,Pillsbury Homestyle Original Pancakes - 12 CT,pancake supplies,1,12.02,50,3,1
+107830,Pillsbury Mini Pancakes - Buttermilk,pancake supplies,1,10.99,50,1,1
+213478,Karo Pancake Syrup,pancake supplies,1,11.21,50,2,1
+414637,Wholesome! Organic Lite Pancake Syrup,pancake supplies,1,6.66,50,3,1
+149690,Hungry Jack Lite Syrup,pancake supplies,1,7.48,50,1,1
+187474,Hungry Jack Lite Syrup,pancake supplies,1,7.29,50,2,1
+90590,Jif Peanut Butter - Creamy Family Size,pb and j,1,18.42,50,1,1
+18709,Jif Peanut Butter,pb and j,1,18.42,50,2,1
+217223,Skippy Peanut Butter Spread - Creamy,pb and j,1,5.58,50,3,1
+217256,Skippy Peanut Butter Spread - Super Chunk Extra Crunchy Natural,pb and j,1,5.87,50,1,1
+159228,Smucker's Sweet Orange Marmalade,pb and j,1,1.97,50,2,1
+217339,Smucker's Blended Fruit - Fruit-Fulls Apple Cinnamon,pb and j,1,1.97,50,3,1
+63586,Smucker's Sugar Free Preserves Red Raspberry,pb and j,1,2.47,50,1,1
+195638,Smucker's Preserves - Red Raspberry,pb and j,1,2.41,50,2,1
+146037,Smucker's Preserves - Apricot-Pineapple,pb and j,1,1.97,50,3,1
+116727,Nature's Path Organic Chia Plus Granola Coconut Chia,cereal 1,1,2.98,50,1,1
+125923,Nature's Path Organic Hemp Plus Granola,cereal 1,1,4.24,50,2,1
+64499,Kashi Cereal - 7 Whole Grain Nuggets,cereal 1,1,6.49,50,3,1
+106690,Peace Cereal All Natural Golden Honey Granola,cereal 1,1,5.09,50,1,1
+222251,Peace Cereal Granola Honey Flax,cereal 1,1,23.23,50,2,1
+64394,General Mills Cheerios Cereal,cereal 2,1,3.49,50,3,1
+13522,Fiber One Cereal,cereal 2,1,3.74,50,1,1
+68862,Kix Crispy Corn Puffs Cereal,cereal 2,1,3.28,50,2,1
+101825,General Mills Fiber One Raisin Bran Clusters Cereal,cereal 2,1,3.89,50,3,1
+211766,General Mills Cereal - Honey Nut Cheerios/Lucky Charms Variety Pack,cereal 2,1,11.68,50,1,1
+17413,Mini-Wheats Cereal,cereal 3,1,2.79,50,2,1
+142738,Kellogg's Cereal Frosted Mini Wheats Touch Of Fruit In The Middle,cereal 3,1,3.98,50,3,1
+64508,Apple Jacks to Go,cereal 3,1,2.19,50,1,1
+104678,Cocoa Krispies Cereal,cereal 3,1,2.79,50,2,1
+98278,Special K Cereal,cereal 3,1,2.88,50,3,1
+69654,Star Olive Oil,olive oil and veg oil,1,4.52,50,1,1
+33176,Goya Puro Olive Oil,olive oil and veg oil,1,7.88,50,2,1
+72807,Star Olive Oil - Original,olive oil and veg oil,1,4.52,50,3,1
+217538,Star Olive Oil - Extra Virgin,olive oil and veg oil,1,5.29,50,1,1
+415774,Ahold Vegetable Oil,olive oil and veg oil,1,7.98,50,2,1
+179554,Ahold Vegetable Oil 100% Natural,olive oil and veg oil,1,3.73,50,3,1
+427347,Wesson Vegetable Oil,olive oil and veg oil,1,6.98,50,1,1
+47905,Wesson Vegetable Oil,olive oil and veg oil,1,2.73,50,2,1
+50853,Crisco Vegetable Oil - Pure All Natural,olive oil and veg oil,1,6.99,50,3,1
+212199,Gw Sugar - Pure Extra Fine Granulated,sugar and flour,1,17.81,50,1,1
+212167,Gw Sugar - Extra Fine Granulated Pure,sugar and flour,1,17.81,50,2,1
+212159,Gw Sugar - Pure Extra Fine Granulated,sugar and flour,1,17.81,50,3,1
+212086,Gw Sugar - Extra Fine Granulated Pure,sugar and flour,1,18.71,50,1,1
+212198,Gw Sugar - Pure & Natural Fine Granulated,sugar and flour,1,18.31,50,2,1
+117857,C&h Sugar - Pure Cane Confectioners Powdered,sugar and flour,1,1.98,50,3,1
+152207,C&h Sugar - Pure Cane Granulated White,sugar and flour,1,6.36,50,1,1
+178009,Ahold Flour All Purpose,sugar and flour,1,2.98,50,2,1
+177982,Ahold Flour All Purpose Unbleached,sugar and flour,1,3.48,50,3,1
+113528,Heckers All Purpose Flour,sugar and flour,1,6.51,50,1,1
+14988,Pillsbury Flour - Best Whole Wheat,sugar and flour,1,2.78,50,2,1
+6725,Pillsbury Best All Purpose Flour,sugar and flour,1,2.79,50,3,1
+26275,Sunflower Flour,sugar and flour,1,3.99,50,1,1
+181983,Gourmet Garden Basil Stir-In Paste,spices,1,2.97,2,1,1
+140094,The Spice Hunter Deliciously Dill Blend,spices,1,2.97,2,2,1
+410904,Sauer's Garlic Powder Ground,spices,1,2.97,50,3,1
+140248,Lawry's Roasted Garlic Salt with Oregano and Basil Naturally Flavored Blend,spices,1,2.97,33,1,1
+140481,Spice Classics Chili Powder,spices,1,2.97,50,2,1
+132341,Dry Seasoning Lawry's Spices & Seasonings - Enchilada Sauce,spices,1,0.99,50,3,1
+140248,Lawry's Roasted Garlic Salt with Oregano and Basil Naturally Flavored Blend,spices,1,2.97,15,1,1
+163572,Dry Seasoning Lawry's Spices & Seasonings - Beef Marinade Tenderizing,spices,1,0.99,50,2,1
+415149,Ahold Limoncello Inspired Cake Mix,cake mix,1,3.14,50,1,1
+164479,Duff Cake Mix,cake mix,1,3.14,50,2,1
+136187,Jiffy Cake Mix,cake mix,1,3.14,50,3,1
+64692,Pillsbury Cake Mix,cake mix,1,3.14,50,1,1
+46673,Pillsbury Cake Mix - Angel Food Fat Free,cake mix,1,3.14,50,2,1
+0,Perlli 10-Piece Nonstick Carbon Steel Bakeware Set With Red Silicone Handles,baking supplies,1,42.99,50,2,1
+0,Basics 3-Piece Nonstick Baking Sheet Set,baking supplies,1,15.99,50,3,1
+0,Betty Crocker 3-in-1 Baking Rack,baking supplies,1,10.67,50,1,1
+405661,Isaac's Pride Chicken Wings Kosher,Kosher,1,5.99,8,1,1
+406024,Van's Whole Brown Rice Pasta Side Ultimate Cheddar Penne,Kosher,1,5.99,15,2,1
+27831,Manischewitz Homestyle Potato Latke Mix,Kosher,1,5.99,11,3,1
+210741,Dole Canned Fruit Pineapple Chunks - Tropical Gold 20 Oz,canned fruit,1,14.47,50,1,1
+210757,Dole Canned Fruit Pineapple Slices - In Heavy Syrup 100-110 Ct #10,canned fruit,1,14.27,50,2,1
+210808,Dole Fruit Bowls In Box Fruit Cups - Mixed Fruit in 100% Fruit Juice,canned fruit,1,13.44,36,3,1
+210802,Dole Peaches - Sliced All Natural,canned fruit,1,2.92,50,1,1
+106958,S&W Sun Pears,canned fruit,1,3.19,3,2,1
+27530,S&w Peaches - Natural Style Yellow Cling Slices in Lightly Sweetened Juice 15 oz,canned fruit,1,21.97,5,3,1
+155686,Roland Pears,canned fruit,1,3.79,50,1,1
+188663,Crock-Pot Hearty Beef Stew Seasoning Mix,seasoning packets,1,0.97,50,1,1
+139443,Bag 'n Season Cooking Bag & Seasoning Mix - Pot Roast,seasoning packets,1,0.97,89,2,1
+105323,Chicken Seasoning Mix - Crispy Chicken Tenders,seasoning packets,1,0.95,50,3,1
+141799,Old El Paso Seasoning Mix Fajita,seasoning packets,1,0.99,64,1,1
+97191,Amy's Organic Vegetarian Refried Black Beans,mexican/spanish,1,0.97,50,1,1
+98948,Amy's Organic Vegetarian Refried Beans Traditional,mexican/spanish,1,0.97,50,2,1
+94756,Rosarita Black Beans,mexican/spanish,1,0.95,50,3,1
+69112,Rosarita Refried Beans,mexican/spanish,1,0.99,50,1,1
+94860,Rosarita Whole Beans,mexican/spanish,1,1.42,30,2,1
+81435,Guerrero Tortillas - Harina Caseras Fajita Flour 20 Ct,mexican/spanish,1,14.95,50,3,1
+56167,Chi-Chi's Whole Wheat Tortillas Fajita Style - 8 CT,mexican/spanish,1,7.45,50,1,1
+52526,Pace Salsa - Restaurant Style Southwest Chipotle Medium,mexican/spanish,1,7.99,50,2,1
+22523,Pace Salsa - Restaurant Style Fire Roasted Tomato & Corn,mexican/spanish,1,8.99,23,3,1
+81435,Guerrero Tortillas - Harina Caseras Fajita Flour 20 Ct,tortillas and rice,1,4.97,50,1,1
+56167,Chi-Chi's Whole Wheat Tortillas Fajita Style - 8 CT,tortillas and rice,1,4.97,4,2,1
+152530,Prego Meat Sauce - Mini-Meatball,sauces,1,4.97,50,1,1
+187321,Wing It Authentic Buffalo Style Chicken Wing Sauce,sauces,1,11.43,50,2,1
+85607,Bbq Sauces Grill Mates BBQ Sauce - Smoky Santa Fe,sauces,1,11.39,50,3,1
+207450,A 1 Sauce - Spicy Chipotle,sauces,1,4.59,50,1,1
+22698,Barilla Mushroom Pasta Sauce,sauces,1,2.98,50,2,1
+115413,Barilla Pasta Tomato & Basil Sauce,sauces,1,2.88,50,3,1
+208088,Barilla Pasta - Campanelle/Elbows/Rigatoni Variety Pack,packaged noodles,1,27.46,50,1,1
+82780,Barilla Pasta - Mezzi Rigatoni,packaged noodles,1,1.48,8,2,1
+412663,Barilla Collezione Pasta Penne,packaged noodles,1,1.58,50,3,1
+412861,Academia Barilla Pasta Penne Rigate,packaged noodles,1,3.97,50,1,1
+45727,Barilla Pasta Thin Spaghetti Whole Grain,packaged noodles,1,5.21,50,2,1
+143367,Healthy Choice Soup Chicken Noodle,canned soup,1,2.63,21,1,1
+160922,Healthy Choice Soup Clam Chowder,canned soup,1,2.63,50,2,1
+165626,Campbell's Soup,canned soup,1,2.75,50,3,1
+79350,Campbells Soup,canned soup,1,2.75,50,1,1
+77503,Campbell's Homestyle Soup - Harvest Tomato with Basil,canned soup,1,2.75,50,2,1
+407634,Campbell's SpaghettiO's Meatballs Super Mario,canned soup,1,3.25,50,3,1
+183046,Earth's Best Organic Elmo Tomato Soup,canned soup,1,1.99,9,1,1
+30605,Campbell's R&W Condensed Soup - Chicken Noodle Family Size,canned soup,1,5.95,50,2,1
+53300,Annies Bernie O's,canned meals,1,1.49,50,1,1
+65480,Annie's Homegrown P'Sghetti Loops,canned meals,1,1.49,50,2,1
+164400,Annies Ravioli,canned meals,1,1.49,21,3,1
+13751,Annie's Homegrown Organic Pasta All Stars,canned meals,1,1.49,50,1,1
+68973,Annie's Homegrown Organic Pasta Arthur Loops,canned meals,1,1.49,50,2,1
+208815,Bumble Bee Tuna - Prime Fillet Solid White Albacore in Water,canned tuna/fish,1,7.98,1,1,1
+208757,Bumble Bee Tuna - Prime Fillet Solid White Albacore In Water 5 Oz Cans,canned tuna/fish,1,3.22,50,2,1
+194990,Starkist Tuna Fillet - Gourmet Selects Solid Light in Water,canned tuna/fish,1,3.41,50,3,1
+193538,Starkist Tuna Fillet - Gourmet Selects Solid Light in Extra Virgin Olive Oil,canned tuna/fish,1,3.52,50,1,1
+207515,Ace Of Diamonds Tuna - Chunk White In Water,canned tuna/fish,1,1.88,77,2,1
+207533,Ace Of Diamonds Tuna - Chunk Light In Water,canned tuna/fish,1,1.88,50,3,1
+178077,Kayem Hot Dogs,hot dogs and pudding,1,4.99,50,1,1
+408598,Kayem Hot Dogs Skinless,hot dogs and pudding,1,4.99,50,2,1
+213040,Hunter Hot Dogs,hot dogs and pudding,1,4.99,50,3,1
+212632,Hormel Hot Dogs - Beef,hot dogs and pudding,1,4.99,50,1,1
+213031,Hunter Hot Dogs - Jumbo,hot dogs and pudding,1,4.99,50,2,1
+207863,Armour Hot Dogs - Beef Hot Dogs,hot dogs and pudding,1,4.99,50,3,1
+207880,Armour Classic Hot Dogs - 8 CT,hot dogs and pudding,1,4.99,50,1,1
+201779,Armour Hot Dogs Jumbo - Jumbo Meat Hot Dogs,hot dogs and pudding,1,4.99,50,2,1
+12007,JELL-0 Pudding & Pie Filling Chocolate Fudge,hot dogs and pudding,1,1.99,50,3,1
+136816,Kozy Shack Pudding,hot dogs and pudding,1,2.49,50,1,1
+180614,Ahold Pudding Snacks Tapioca - 4 CT,hot dogs and pudding,1,2.49,50,2,1
+146654,Zen Chocolate Pudding - 4 CT,hot dogs and pudding,1,2.49,50,3,1
+146662,Zen Chocolate Pudding with Almondmilk - 4 CT,hot dogs and pudding,1,2.49,50,1,1
+49128,Kozy Shack Pudding - Original Recipe Rice,hot dogs and pudding,1,2.49,50,2,1
+52089,Hood Milk - 2% Reduced Fat,milk and creamer,1,3.49,50,1,1
+29250,Hood Vitamins C&D Milk,milk and creamer,1,3.49,50,2,1
+137406,Hood Milk - Coffee Flavor Lowfat,milk and creamer,1,3.49,50,3,1
+38552,Hood Milk - Fat Free,milk and creamer,1,3.49,50,1,1
+29260,Hood Milk - 1% Lowfat,milk and creamer,1,3.49,50,2,1
+92491,Nestle Coffee-Mate Peppermint Mocha Coffee Creamer,milk and creamer,1,2.68,50,3,1
+30528,Coffee-Mate Coffee Creamer,milk and creamer,1,2.68,50,1,1
+23917,Nestle Coffee-Mate Peppermint Mocha Flavor Coffee Creamer,milk and creamer,1,2.68,50,2,1
+179783,Nestle Coffee-Mate Peppermint Mocha Coffee Creamer Sugar Free,milk and creamer,1,2.68,50,3,1
+207221,Star Creamer - Non-Dairy,milk and creamer,1,2.68,50,1,1
+209902,Cremel Creamer - Original,milk and creamer,1,2.68,50,2,1
+207792,Anthem Creamer - Non-Dairy,milk and creamer,1,2.68,50,3,1
+209897,Cremel Creamer - Liquid Hazelnut,milk and creamer,1,2.68,50,1,1
+77899,Sargento Cheese,cheese and yogurt,1,3.88,50,1,1
+22311,Sargento(r) Off The Block Cheese - Mozzarella & Provolone Traditional Cut Shredded,cheese and yogurt,1,3.88,50,2,1
+59974,Sargento Shredded Cheese,cheese and yogurt,1,3.88,50,3,1
+146778,Sargento Reduced Sodium Pepper Jack Sliced Cheese - 10 CT,cheese and yogurt,1,3.88,50,1,1
+124731,Sargento Shredded Cheese,cheese and yogurt,1,3.88,50,2,1
+213843,Kraft Natural Slices Cheese Slices - Big Slice Chipotle,cheese and yogurt,1,3.88,50,3,1
+89310,Kraft Natural Slices Cheese Slices - Big Slice Sweet Heat Habanero Jack,cheese and yogurt,1,3.88,50,1,1
+78361,Kraft Jalapeno String Cheese - 12 CT,cheese and yogurt,1,1.89,50,2,1
+163581,Kraft Singles Cheese Slices - American 2% Milk,cheese and yogurt,1,3.88,50,3,1
+214146,La Yogurt Original Variety Pack Lowfat Yogurt - Strawberry & Peach Blended,cheese and yogurt,1,2.49,50,1,1
+71784,Oikos Yogurt,cheese and yogurt,1,2.49,50,2,1
+75544,noosa yogurt raspberry,cheese and yogurt,1,2.49,50,3,1
+180024,Cabot Yogurt Greek-Style Lowfat Peach,cheese and yogurt,1,2.49,50,1,1
+109621,Dannon Fruit on the Bottom Lowfat Yogurt Cherry,cheese and yogurt,1,2.49,50,2,1
+178490,Ahold Yogurt Light Strawberry Banana Nonfat,cheese and yogurt,1,2.49,50,3,1
